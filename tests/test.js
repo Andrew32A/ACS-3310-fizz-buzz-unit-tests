@@ -1,7 +1,14 @@
 const fb = require("../fizzbuzz");
 
 // Challenge 1: Write a test for each of the constants
-const { FIZZ, BUZZ, FIZZBUZZ, fizzyBuzzy, isBuzzy } = require("../fizzbuzz");
+const {
+  FIZZ,
+  BUZZ,
+  FIZZBUZZ,
+  fizzyBuzzy,
+  isBuzzy,
+  fizzBuzz,
+} = require("../fizzbuzz");
 
 test('Constant FIZZ equals "fizz"', () => {
   expect(FIZZ).toBe("fizz");
