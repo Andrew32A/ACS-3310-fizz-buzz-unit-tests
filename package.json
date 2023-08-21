@@ -4,7 +4,8 @@
   "description": "Fizz Buzz starter code for FEW 2.1",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:coverage": "jest --coverage"
   },
   "keywords": [],
   "author": "",
